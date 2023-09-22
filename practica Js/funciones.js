@@ -1,4 +1,5 @@
 //1. Definir un arreglo de objetos en base a su entidad asignada en el proyecto autónomo con por lo menos 5 elementos.
+// información de los clientes
 const clientes = [
   {
     idCliente: 1,

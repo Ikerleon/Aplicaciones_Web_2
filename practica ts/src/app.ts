@@ -1,7 +1,7 @@
 
 import { ICliente } from "./interfacs/ICliente";
 
-
+// información de los clientes
 const clientes: ICliente[] = [
   {
     idCliente: 1,
@@ -43,7 +43,7 @@ const clientes: ICliente[] = [
   email: 'Ikerleon@example.com',
   telefono: '09876432',
 }];
-
+// Imprime la información del cliente
 console.log("\nUsando for in:");
 for (let i = 0; i < 3; i++) {
   for (const index in clientes) {
@@ -54,7 +54,7 @@ for (let i = 0; i < 3; i++) {
   }
   console.log("-----------------------------");
 }
-
+// Imprime la información del cliente
 console.log("Usando forEach:");
 for (let i = 0; i < 3; i++) {
   clientes.forEach((cliente) => {
@@ -64,7 +64,7 @@ for (let i = 0; i < 3; i++) {
   });
   console.log("-----------------------------");
 }
-
+// Imprime la información del cliente
 console.log("\nUsando for of:");
 for (let i = 0; i < 3; i++) {
   for (const cliente of clientes) {
